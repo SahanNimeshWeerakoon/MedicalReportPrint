@@ -1,0 +1,10 @@
+.view-edit-report{
+    display: none;
+    width: 90%;
+    margin: auto;
+    .m6{
+        #medical, #laboratory{
+            border: 1px solid #BBB;
+        }
+    }
+}

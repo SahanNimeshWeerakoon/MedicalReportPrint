@@ -1,0 +1,44 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Slick Carousel
+.slick-slide.slick-current.slick-active:focus{
+  outline: none;
+}
+
+// Login Form
+@import 'login';
+
+// Dashboard
+@import 'dashboard';
+
+// Add Personal
+@import 'addpersonal';
+
+// Add Reports
+@import 'addreports';
+
+// All Reports
+@import 'allreports';
+
+// View Report 
+@import 'viewreport';
+
+// Preview
+@import 'preview';

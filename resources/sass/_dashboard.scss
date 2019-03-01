@@ -1,0 +1,31 @@
+.dashboard{
+    padding-top: 50px;
+    .tabs-title{
+        .tabs{
+            li{
+                width: 50%;
+            }
+        }
+    }
+    .tab-contents{
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        .pink, .green{
+            display: inline-block;
+            margin-right: 25px;
+            padding: 10px 20px;
+            font-size: 1.4em;
+            border: none;
+        }
+        form{
+            margin-bottom: 30px;
+            .pink, .green{
+                margin-left: 20px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

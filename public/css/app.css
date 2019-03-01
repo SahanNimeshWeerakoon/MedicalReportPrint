@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);html {
+  scroll-behavior: smooth;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.slick-slide.slick-current.slick-active:focus {
+  outline: none;
+}
+
+form.login-form {
+  margin-top: 50px;
+}
+
+form.login-form .card-title {
+  font-weight: 400;
+}
+
+.dashboard {
+  padding-top: 50px;
+}
+
+.dashboard .tabs-title .tabs li {
+  width: 50%;
+}
+
+.dashboard .tab-contents {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.dashboard .tab-contents .pink,
+.dashboard .tab-contents .green {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  border: none;
+}
+
+.dashboard .tab-contents form {
+  margin-bottom: 30px;
+}
+
+.dashboard .tab-contents form .pink,
+.dashboard .tab-contents form .green {
+  margin-left: 20px;
+}
+
+.dashboard .tab-contents form .pink:hover,
+.dashboard .tab-contents form .green:hover {
+  cursor: pointer;
+}
+
+.personal .client-image {
+  padding-top: 20px;
+}
+
+.view-edit-report {
+  display: none;
+  width: 90%;
+  margin: auto;
+}
+
+.view-edit-report .m6 #medical,
+.view-edit-report .m6 #laboratory {
+  border: 1px solid #BBB;
+}
+
+.all-reports .search-btn {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  display: block;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.all-reports .search-btn button {
+  position: absolute;
+  right: 0;
+  width: 100px;
+}
+
+.all-reports .collection .collection-item a {
+  width: 100%;
+}
+
+.printview {
+  display: none;
+}
+
+.printview,
+.show-print-view {
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.speial-note {
+  height: 81px;
+  position: relative;
+  z-index: -10;
+}
+
+.view-report {
+  width: 98%;
+  margin: auto;
+}
+
+.view-report table td {
+  padding: 0;
+  border: 1px solid #000;
+  font-size: 0.8em;
+}
+
+.view-report .top-three td {
+  border: none;
+}
+
+.view-report .top-three td:nth-child(1),
+.view-report .top-three td:nth-child(3) {
+  width: 20%;
+}
+
+.view-report .top-three td:nth-child(2) {
+  width: 60%;
+}
+
+.view-report .top-three td:nth-child(2) .title {
+  padding-right: 60px;
+}
+
+.view-report .top-three td:nth-child(3) .title {
+  padding-right: 30px;
+}
+
+.view-report .top-three td p.top-round {
+  border: 1px solid #000;
+  padding: 0.5px;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+
+.view-report .top-personal {
+  margin-top: -5px;
+}
+
+.view-report .top-personal .img-brd {
+  overflow: hidden;
+  width: 15%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  height: 110px;
+}
+
+.view-report .top-personal .img-brd img {
+  width: 100%;
+  height: 100%;
+}
+
+.view-report .top-personal td {
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+
+.view-report .top-personal .m10 {
+  width: 85%;
+}
+
+.view-report .top-personal .m10 .m12 {
+  width: 100%;
+}
+
+.view-report .top-personal .m10 .m10 {
+  width: 70%;
+}
+
+.view-report .top-personal .m10 .m2 {
+  width: 3 0%;
+}
+
+.view-report .top-personal table {
+  border-collapse: separate;
+}
+
+.view-report .top-personal table td {
+  border: 1px solid #000;
+  font-size: 0.6em;
+}
+
+.view-report .history {
+  border: 1px solid #000;
+  width: 98%;
+  margin: auto;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+.view-report .history h6 {
+  font-size: 0.8em;
+}
+
+.view-report .history .psychiatric {
+  font-size: 0.6em;
+}
+
+.view-report .history .ihereby {
+  font-size: 0.6em;
+  padding-left: 10px;
+}
+
+.view-report .report table thead td {
+  text-align: right;
+}
+
+.view-report .report table thead td p {
+  border-radius: 5px;
+  width: 98%;
+  margin: 3px auto;
+  background: #004890;
+  color: #fff;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.view-report .report table tbody td {
+  font-size: 0.7em;
+}
+
+.view-report .footer {
+  border: 1px solid #000;
+  width: 97%;
+  margin: auto;
+  font-size: 0.6em;
+  padding: 10px;
+}
+
+.view-report .footer p {
+  margin-top: -1px;
+}
+
+.preview .top-round {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.preview .photo {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.preview .right-photo {
+  border: 1px solid #000;
+}
+
